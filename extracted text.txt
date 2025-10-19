@@ -1,0 +1,25 @@
+Text extraction
+
+Full text indexing of file
+contents based on various
+parser libraries (POT,
+PDFBox, etc.).
+
+Currently only for the
+jcr:data property with
+correct jcr:mime Type.
+
+Jackrabbit 2.0: indexing of
+all binary properties.
+
+textFilterClasses:
+PlainTextExtractor
+MsWordTextExtractor
+MsExcelTextExtractor
+MsPowerPoint TextExtractor
+Pdf TextExtractor
+OpenOfficeTextExtractor
+RTFTextExtractor
+
+HTML TextExtractor
+XMLTextExtractor
